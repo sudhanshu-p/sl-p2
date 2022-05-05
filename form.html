@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./form.css">
+	<title>Register an Alumni</title>
+</head>
+<body>
+	<div class="bg">
+		<h1></h1>
+	</div>
+
+	<span class="ca">
+		<a href="./index.html">See Data</a>
+	</span>
+	<div id="container">
+	<figure>
+		<img src="./media/logo.png" alt="Ramdeobaba Logo" class="logo" width="100px">
+		<figcaption><h2>Ramdeobaba Alumni College Association</h2></figcaption>
+	</figure>
+
+
+	<form>
+		<div id="name">
+			<div id="fname">
+				<label for="fname">First Name:</label>
+				<input type="text" name="fname" placeholder="First Name" 	required>
+			</div>
+
+
+			&ensp;&ensp;&ensp;
+			<div id="lname">
+				<label for="lname">Last Name:</label>
+				<input type="text" name="lname" placeholder="Last Name" required>
+			</div>
+		</div>
+
+		<div id="batch">
+			<label for="batch">Batch: </label>
+			<select name="batch" required>
+				<option value="none">Select Option</option>
+				<option value="2021">2017-2021</option>
+				<option value="2021">2016-2020</option>
+				<option value="2021">2015-2019</option>
+				<option value="2021">2014-2018</option>
+				<option value="2021">2013-2017</option>
+			</select>
+		</div>
+
+		<div id="branch">
+			<label for="branch" id="branch">Branch: </label>
+			<select name="branch" required>
+				<option value="none">Select Option</option>
+				<option value="bio">Biomedical Engineering</option>
+				<option value="civil">Civil Engineering</option>
+				<option value="cse">Computer Science and Engineering</option>
+				<option value="ee">Electrical Engineering</option>
+				<option value="en">Electronics Engineering</option>
+				<option value="ece">Electronics and Communication Engineering</option>
+				<option value="edt">Electronics Design Technology</option>
+				<option value="ind">Industrial Engineering</option>
+				<option value="it">Information Technology</option>
+			</select>
+		</div>
+
+		<div id="position">
+			<label for="position"> Current Position: </label>
+			<textarea name="position" cols="30" rows="5" required></textarea>
+		</div>
+
+		<div id="gender">
+			<label for="gender">Gender: </label>
+			<input type="radio" name="gender" required>Male
+			<input type="radio" name="gender" required>Female
+			<input type="radio" name="gender" required>Other
+		</div>
+
+		<div id="email">
+			<label for="email">Contact e-mail</label>
+			<input type="email" placeholder="abc@gmail.com" required>
+		</div>
+
+		<div id="resume">
+			<label for="resume">Resume</label>
+			<input type="file" name="resume" id="resume" accept=".pdf, .docx" required>
+		</div>
+
+		<div id="submit">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+	</div>
+</body>
+</html>
+
+<!-- Biomedical Engineering
+Civil Engineering
+Computer Science and Engineering
+Electrical Engineering
+Electronics Engineering
+Electronics and Communication Engineering
+Electronics Design Technology
+Industrial Engineering
+Information Technology  -->
+
+
+<!-- 2 pages
+1st page pe alumni ka data
+->table
+
+2nd page pe form to add alumni
+->Name- text
+->Batch- dropdown
+->Branch- dropdown
+->Current Position- text/multiline
+->Gender: Male, Female, Other, inline- radio
+->email- text
+->File Upload- Resume Upload. imgX, docx, pdf chalega -->

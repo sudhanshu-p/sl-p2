@@ -1,0 +1,60 @@
+th, td {
+	border: 1px solid black;
+	min-width: 100px;
+}
+
+.bg {
+	content: "";
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	z-index: -1;
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(media/bg.jpg);
+    background-size: cover;
+}
+
+.highlighted, thead {
+	background-color: #800080;
+	color: white;
+}
+
+.normal {
+	background-color: white;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 0;
+  	margin: 0;
+}
+
+th {
+	padding: 10px;
+}
+
+.ca {
+	padding-top: 12vh;
+	display: flex;
+	justify-content: center;
+	font-size: 5vh;
+}
+
+.ca > a {
+	padding: 1vh;
+	background-color: lightskyblue;
+	border: 1px solid black;
+	box-shadow: 5px 5px deepskyblue;
+	text-decoration: none;
+	color: #800080;
+}

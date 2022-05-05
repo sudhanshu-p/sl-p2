@@ -1,0 +1,90 @@
+html {
+	color: cyan;
+	overflow: hidden;
+}
+
+.bg {
+	content: "";
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	z-index: -1;
+	height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(media/bg.jpg);
+    background-attachment: fixed;
+}
+
+input {
+	border-radius: 5px;
+	border-style: groove;
+	border-width: 2px;
+}
+
+form {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 500px;
+	background-color: purple;
+	/*min-width: 500px;*/
+	max-width: 600px;
+	border-radius: 40px;
+	align-items: center;
+	justify-content: space-around;
+	border: 2px solid cyan;
+}
+
+#description {
+	display: flex;
+	align-items: center;
+}
+
+a {
+	text-align: center;
+}
+
+#position {
+	display: flex;
+}
+
+#position > label{
+	margin-top: 40px;
+}
+
+label {
+	padding-right: 20px;
+}
+
+#name {
+	display: flex;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption h2 {
+	color: black;
+}
+
+.ca {
+	display: flex;
+	justify-content: center;
+	font-size: 5vh;
+}
+
+.ca > a {
+	padding: 1vh;
+	background-color: lightskyblue;
+	border: 1px solid black;
+	box-shadow: 5px 5px deepskyblue;
+	text-decoration: none;
+	color: #800080;
+}
